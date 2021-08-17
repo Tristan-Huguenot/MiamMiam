@@ -1,0 +1,108 @@
+body{
+    color: #662E41;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    width: 320px;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+}
+ul, ol{
+    list-style-type: none;
+    padding: 0;
+}
+div.header{
+    background-color: #fdedf3;
+    padding: 1px;
+}
+.header h1{
+    font-weight: bold;
+}
+.information{
+    background-color: #fef8fa;
+    padding: 1px;
+}
+.information p{
+    font-style: italic;
+    text-align: center;
+}
+.information ul{
+    margin-left: 50px;
+    text-align: left;
+}
+.ingredients{
+    background-color: #fdedf3;
+    padding: 1px;
+    text-align: center;
+}
+.header h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    color: #662e41;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 16px;
+}
+.footer{
+    background-color: #e62364;
+    padding: 1px;
+}
+.footer ul{
+    display: flex;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer li{
+    color: #ffffff;
+    font-size: 10px;
+    margin: auto;
+    text-align: center;
+}
+a{
+    color: #e62364;
+    font-style: italic;
+}
+.arianne a{
+    text-decoration: none;
+}
+.arianne{
+    display: flex;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.arianne :not(:last-child)::after{
+    content: " > ";
+    color: #e62364;
+}
+.preparation{
+    background-color: #fef8fa;
+    padding: 1px;
+}
+.preparation h2{
+    text-align: center;
+}
+.preparation ol{
+    text-align: center;
+    padding: 5px;
+}
+.preparation li{
+    padding-bottom: 13px;
+}
+.preparation a{
+    font-weight: bold;
+}
+h1, h2, h3{
+    font-weight: bold;
+}
